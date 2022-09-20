@@ -37,10 +37,10 @@ body{
  .author-link{
      color: yellow;
  }
- @media only screen and (max-width: 475px) {
+ @media only screen and (max-width: 500px) {
      
  h1{
-     height: 20vw;
+     height: 30vw;
  }
  
  .big-header{
