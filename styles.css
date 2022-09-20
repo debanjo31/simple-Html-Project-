@@ -15,7 +15,7 @@ body{
      font-size: 25px;
      padding: 10px;
  }
- 
+
  h3{
     color: yellow;
  }
@@ -44,6 +44,13 @@ body{
  }
  .author-link{
      color: yellow;
+ }
+
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
  }
  
  @media only screen and (max-width: 500px) {
