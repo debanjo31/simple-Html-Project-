@@ -38,18 +38,14 @@ body{
  .author-link{
      color: yellow;
  }
-/*  
+ 
  @media only screen and (max-width: 500px) {
      
  h1{
-     height: 30vw;
+     height: 60px;
  }
  
  .big-header{
-     font-size: 80px;
+     font-size: 20px;
  }
 }
-.header-img{
- height: 100px;
- width: 100px;
-} */
