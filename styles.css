@@ -41,11 +41,7 @@ body{
  
  @media only screen and (max-width: 500px) {
      
- h1{
-     height: 60px;
- }
- 
  .big-header{
-     font-size: 20px;
+     font-size: 40px;
  }
 }
