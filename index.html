@@ -1,11 +1,57 @@
 <html>
     <head>
         <title>Introduction to HTML</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body{
+               margin: 0px;
+               padding: 0px;
+               background-color: rgb(56, 51, 51);
+               color: white;
+            }
+            h1{
+                background-color: purple;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 25px;
+                padding: 10px;
+            }
+            .big-header{
+                font-size: 50px;
+                font-weight: lighter;
+                padding: 20px;
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            .header-img{
+                width: 60px;
+                height: 60px;
+                border-radius: 100%;
+                float: left;
+                padding: 15px;
+            }
+            .author{
+                margin-bottom: -15px;
+                margin-top: 30px;
+                color: yellow;
+            }
+            .blog-text{
+                float: none;
+                margin-top: 40px;
+            }
+            .author-link{
+                color: yellow;
+            }
+           
+        </style>
     </head>
-    <body >
+    <body>
        <h1>FOOTBALL NEWS</h1>
-       <h3> ‘Greatest desire to play for Liverpool’ – Jurgen Klopp handed major boost in pursuit of Brazil wonderkid Joao Gomes</h3>
-       <p><b>Gomes</b> played a key role as the Rio based club won the Brazilian league title in 2020 - in the first season he broke into the team.
+       <h3 class="big-header"> ‘Greatest desire to play for Liverpool’ – Jurgen Klopp handed major boost in pursuit of Brazil wonderkid Joao Gomes</h3>
+       <img src="messi2.jpg" alt="" class="header-img">
+       <h4 class="author">Nick Wright</h4>
+       <p>Comment and Analysis <a class="author-link" href="https://twitter.com/nicholaspwright">@nicholaspwright</a> </p>
+       <p class="blog-text"><b>Gomes</b> played a key role as the Rio based club won the Brazilian league title in 2020 - in the first season he broke into the team.
 
 
         Many believe poor midfield displays are one of the reasons behind Liverpool's slow start to the current season.
@@ -31,8 +77,7 @@ Alexander-Arnold’s problem is the number of rivals for a place on the right si
     <h4>MESSI</h4>
     <img src="ronaldo.jpg" alt="Ronaldo">
     <h4>Ronaldo</h4>
-    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.realmadrid.com%2Fimg%2Fvertical_380px%2Fbenzema_av38083_20220809044617.jpg&imgrefurl=https%3A%2F%2Fwww.realmadrid.com%2Fen%2Ffootball%2Fsquad%2Fkarim-benzema&tbnid=ej4aZivCnDHWqM&vet=12ahUKEwir4_GJgqH6AhVR5IUKHe5wDaAQMygCegUIARDeAQ..i&docid=lTpmOKHNO61oYM&w=380&h=501&q=benzema&ved=2ahUKEwir4_GJgqH6AhVR5IUKHe5wDaAQMygCegUIARDeAQ" alt="Benzema">
-    <h3>Best of Ronaldinho Skills</h3> 
+    <h3 >Best of Ronaldinho Skills</h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/nj5GLQ1rX7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
 </body>
 </html>
