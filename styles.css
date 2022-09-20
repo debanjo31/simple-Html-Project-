@@ -3,6 +3,7 @@ body{
     padding: 0px;
     background-color: rgb(56, 51, 51);
     color: white;
+    overflow-x: hidden;
  }
  h1{
      background-color: purple;
